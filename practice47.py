@@ -10,5 +10,4 @@ def _sum(arr):
 if __name__ == "__main__":
     input_arr = [12, 3, 4, 15]
 
-    arr_sum = _sum(input_arr)
-    print(f"配列の合計は{arr_sum}")
+    print("配列の合計は{}.format(_sum(input_arr))")
